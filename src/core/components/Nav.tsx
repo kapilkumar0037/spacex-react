@@ -8,10 +8,10 @@ const Nav = ()=> {
                    <Link to={'/'}>Home</Link> 
                 </li>
                  <li>
-                    About
+                    <Link to={'/about'}>About</Link> 
                 </li>
                  <li>
-                    Contact
+                    <Link to={'/contact'}>Contact</Link> 
                 </li>
                  <li>
                     <button type="button" className="px-2 py-1 rounded bg-[#c5e09b] hover:bg-[#7cba01]">Login</button>

@@ -1,6 +1,6 @@
 const SpacexCard = ({ item }: any) => {
   return (
-    <div className="shadow rounded-lg min-h-50 w-full sm:w-55 bg-white p-4">
+    <div className="shadow rounded-lg min-h-50 h-fit w-full sm:w-55 bg-white p-4">
       <div className="bg-gray-200 w-full  text-center">
         <img className="m-auto w-full p-3" src={item.links.mission_patch_small} />
       </div>
