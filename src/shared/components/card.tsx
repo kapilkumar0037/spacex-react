@@ -1,4 +1,20 @@
-const SpacexCard = ({ item }) => {
+
+export interface SpacexCardProps {
+  item: ISpacexCard;
+}
+export interface ISpacexCard {
+  links: {
+    mission_patch_small: string;
+  };
+  mission_name: string;
+  rocket: {
+    rocket_id: string;
+    rocket_type: string;
+    rocket_name: string;
+  };
+  launch_year: string;
+}
+const SpacexCard = ({ item }: SpacexCardProps) => {
   return (
     <div className="shadow rounded-lg min-h-50 h-fit w-full sm:w-55 bg-white p-4">
       <div className="bg-gray-200 w-full  text-center">

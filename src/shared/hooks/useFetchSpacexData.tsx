@@ -1,11 +1,17 @@
 import { useEffect, useState } from "react";
 
+export interface FetchSpacexDataProps {
+  year?: string;
+  launch_success?: boolean;
+  land_success?: boolean;
+  limit?: number;
+}
 const useFetchSpacexData = ({
   year,
   launch_success,
   land_success,
   limit = 20,
-}) => {
+}: FetchSpacexDataProps) => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
