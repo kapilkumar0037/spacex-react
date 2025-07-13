@@ -7,4 +7,5 @@ Simple React application covering important concepts
 4. Custom hook
 5. Api call using custom hook
 6. Filters
+7. Eslint setup
 
