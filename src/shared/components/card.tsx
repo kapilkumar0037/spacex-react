@@ -1,4 +1,4 @@
-const SpacexCard = ({ item }: any) => {
+const SpacexCard = ({ item }) => {
   return (
     <div className="shadow rounded-lg min-h-50 h-fit w-full sm:w-55 bg-white p-4">
       <div className="bg-gray-200 w-full  text-center">

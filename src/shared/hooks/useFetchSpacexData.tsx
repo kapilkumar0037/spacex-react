@@ -5,7 +5,7 @@ const useFetchSpacexData = ({
   launch_success,
   land_success,
   limit = 20,
-}: any) => {
+}) => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
